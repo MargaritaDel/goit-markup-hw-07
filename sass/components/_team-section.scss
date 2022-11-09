@@ -1,0 +1,14 @@
+.team {
+    padding: 94px 0;
+    background-color: var(--third-background-color);
+}
+
+.team__title {
+    @include title;
+}
+
+.team__list {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}

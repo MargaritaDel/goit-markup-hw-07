@@ -1,0 +1,48 @@
+.subsribe {
+    margin-left: auto;
+}
+
+.subsribe__text {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subsribe__form {
+    display: flex;
+    align-items: baseline;
+}
+
+.subsribe__mail {
+    display: flex;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 16px;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 12px;
+    cursor: pointer;
+
+    &:hover {
+        border-color: var(--accent-color);
+        outline: var(--accent-color);
+    }
+
+    &:focus {
+        border-color: var(--accent-color);
+        outline: var(--accent-color);
+    }
+}
