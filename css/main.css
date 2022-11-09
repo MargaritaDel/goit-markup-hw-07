@@ -334,7 +334,6 @@ link {
           transform: translateY(-50%);
   left: -21px;
 }
-
 .checkbox__input:checked + .checkbox__icon {
   background-color: var(--accent-color);
   border-color: transparent;
