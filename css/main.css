@@ -659,10 +659,6 @@ link {
   border-color: var(--accent-color);
 }
 
-.form__control:focus-within .form__icon {
-  fill: var(--accent-color);
-}
-
 .form__control {
   position: relative;
   display: block;
@@ -677,6 +673,9 @@ link {
   color: currentColor;
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form__control:focus-within .form__icon {
+  fill: var(--accent-color);
 }
 
 .form__textarea {
@@ -707,7 +706,6 @@ link {
 .form__coment:focus {
   border-color: var(--accent-color);
 }
-
 .form__coment::-webkit-input-placeholder {
   font-family: inherit;
   font-size: 12px;
@@ -715,7 +713,6 @@ link {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__coment::-moz-placeholder {
   font-family: inherit;
   font-size: 12px;
@@ -723,7 +720,6 @@ link {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__coment:-ms-input-placeholder {
   font-family: inherit;
   font-size: 12px;
@@ -731,7 +727,6 @@ link {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__coment::-ms-input-placeholder {
   font-family: inherit;
   font-size: 12px;
@@ -739,7 +734,6 @@ link {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__coment::placeholder {
   font-family: inherit;
   font-size: 12px;
